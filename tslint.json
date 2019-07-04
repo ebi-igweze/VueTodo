@@ -9,11 +9,18 @@
     ]
   },
   "rules": {
-    "quotemark": [true, "single"],
-    "indent": [true, "spaces", 2],
+    "quotemark": [false, "single"],
+    "indent": [false, "tabs", 4],
+    "eofline": false,
+    "no-console": false,
+    "arrow-parens": false,
     "interface-name": false,
     "ordered-imports": false,
+    "trailing-comma": false,
+    "interface-over-type-literal": true,
     "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
+    "object-literal-shorthand": false,
+    "no-consecutive-blank-lines": false,
+    "space-before-function-paren": false
   }
 }
